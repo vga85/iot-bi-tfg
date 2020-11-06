@@ -27,4 +27,4 @@ while True:
     else:
         print("Sensor failure. Check wiring.");
     #Receiving values every 60 seconds
-    time.sleep(60);
+    time.sleep(10);
