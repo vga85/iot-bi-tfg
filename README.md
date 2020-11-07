@@ -16,7 +16,7 @@ Applications to connect humidity and temperature sensor DHT11 to a Raspberry Pi.
   git clone https://github.com/adafruit/Adafruit_Python_DHT.git && cd Adafruit_Python_DHT && sudo python setup.py install
 
 ## Connection diagram
-![](https://uoc0-my.sharepoint.com/:i:/g/personal/vgonzalezalv_uoc_edu/EWwsiIxEL39Cj5mkklrk-iwBzzCpxwZmXAVa2vSfNKa_Mw?e=zf68P3)
+![alt text](https://github.com/vga85/iot-bi-tfg/blob/main/raspberry_pi_model_b_bb.png)
 
 ## Configuration & Installation
 
