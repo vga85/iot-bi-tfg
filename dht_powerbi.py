@@ -16,10 +16,11 @@ import urllib3, time
 from datetime import datetime
 import Adafruit_DHT
 
-# type of sensor that we're using
+# We define the type of sensor. Change to DHT22 if you use this type of DHT-sensor.
 sensor = Adafruit_DHT.DHT11 
+#sensor = Adafruit_DHT.DHT22
 
-# pin which reads the temperature and humidity from sensor GPIO port
+# pin which reads the temperature and humidity from sensor GPIO port (OUT)
 gpio = 17         
 
 # REST API endpoint, given to you when you create an API streaming dataset
@@ -46,7 +47,7 @@ while True:
         print("POST request to Power BI with data:{0}".format(data))
         print("Response: HTTP {0} {1}\n".format(response, response))   
     
-        time.sleep(1)
+        time.sleep(15)
         
         #Capture exceptions
     except urllib3.exceptions.HTTPError as e:

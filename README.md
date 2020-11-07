@@ -13,9 +13,9 @@ Applications to connect humidity and temperature sensor DHT11 to a Raspberry Pi.
 
 - Circuit Python library from Adafruit https://github.com/adafruit/Adafruit_CircuitPython_DHT
 
-  pip3 install adafruit-circuitpython-dht
+  git clone https://github.com/adafruit/Adafruit_Python_DHT.git && cd Adafruit_Python_DHT && sudo python setup.py install
 
-## Diagrama de conexión
+## Connection diagram
 ![](https://uoc0-my.sharepoint.com/:i:/g/personal/vgonzalezalv_uoc_edu/EWwsiIxEL39Cj5mkklrk-iwBzzCpxwZmXAVa2vSfNKa_Mw?e=zf68P3)
 
 ## Configuration & Installation
@@ -27,9 +27,9 @@ For local execution:
 
   sudo dht_cli.py
 
-To send data to Power BI
+To send data to Power BI in background
 
-  sudo dht_powerbi.py
+  sudo dht_powerbi.py &
 
-## Consultas y sugerencias
+## Questions and suggestions
 vgonzalezalv@uoc.edu
