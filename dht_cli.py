@@ -14,7 +14,9 @@ import time
 
 # We define the type of sensor. Change to DHT22 if you use this type of DHT-sensor.
 sensor = Adafruit_DHT.DHT11
-# Where OUT pin is connected to Raspberry Pi
+#sensor = Adafruit_DHT.DHT22
+
+# pin which reads the temperature and humidity from sensor GPIO port (OUT)
 gpio = 17
 
 while True:
